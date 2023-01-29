@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games - Js</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="main-body">
+                <div class="input">  
+                    <h2>Guessing Game</h2>
+                     <a href="javascript:void(0)" class="mybutton">Action</a> 
+                </div>
+                <div class="output">
+                     <div class="card">
+                        <form>
+                            <label for="gussingNumber">Guess the number Between 1-5:</label>
+                            <input type="number" placeholder="Enter Number" min="1" max="5" id="gussingNumber" style="min-width: 60px">
+                            <button type="submit" class="btn-submit" id="check">Check Result</button>
+                         </form>
+    
+                         <div class="messages">
+                            <p class="result-text">Enter  value to get start</p> 
+    
+                            <h4 class="remaining-attmp">Attempt Remaining 5</h4>
+
+                            <h4 class="total-lost-win">Total Wins: 0; Total Lost: 0</h4>
+                         </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/gussing-game.js"></script>
+</body>
+</html>
